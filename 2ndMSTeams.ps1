@@ -1,4 +1,8 @@
-﻿#Copying MS teams profile
+## This script enables the use of two work or school MS teams accounts on one Windows Computer. 
+#The executable file has been uploaded incase you want to run a quick setup
+##Baylop - SERUKEN
+
+#Copying MS teams profile
 Copy-Item -Path "$env:LOCALAPPDATA\Microsoft\Teams\" -Destination "C:\Teams" -Recurse -Container 
 
 #Create a new profile
